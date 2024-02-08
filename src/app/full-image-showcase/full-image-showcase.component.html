@@ -1,0 +1,18 @@
+<div
+  class="container"
+>
+  <div
+    class="backdrop"
+    (click)="closeFullScreenImage()"
+  >
+  </div>
+  <div class="img_container">
+    <img
+      [src]="images[selectedImageIndex].imageURL"
+      alt="Main image"
+    />
+    <h2>{{images[selectedImageIndex].author}}</h2>
+    <p>{{images[selectedImageIndex].date}}</p>
+  </div>
+  <app-comment-section />
+</div>

@@ -1,0 +1,21 @@
+.image_list {
+  display: flex;
+  width: 40vw;
+  height: 10vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 1vw;
+}
+button {
+  height: 100%;
+  border: 0;
+  background: none;
+}
+img {
+  width: auto;
+  height: 100%;
+}
+.back_forward_btn {
+  font-size: 2vw;
+}

@@ -1,0 +1,11 @@
+button {
+  border: 0;
+  background: none;
+}
+button:hover {
+  cursor: pointer;
+}
+img {
+  width: 50vw;
+  height: auto;
+}
