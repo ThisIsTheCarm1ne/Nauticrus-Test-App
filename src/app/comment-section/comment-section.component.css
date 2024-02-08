@@ -1,0 +1,7 @@
+.comment_section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  color: whitesmoke;
+}

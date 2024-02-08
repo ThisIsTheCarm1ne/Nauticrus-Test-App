@@ -1,0 +1,12 @@
+<div class="comment_section">
+  <form (ngSubmit)="submitComment()">
+    <input type="text" id="commentInput" [(ngModel)]="commentText" name="commentText"/>
+    <button type="submit">Submit</button>
+  </form>
+  <div *ngIf="images[selectedImageIndex].comments.length > 0">
+    <p *ngFor="let comment of images[selectedImageIndex].comments">{{comment}}</p>
+  </div>
+  <div *ngIf="images[selectedImageIndex].comments.length === 0">
+    <p>No comments yet.</p>
+  </div>
+</div>
