@@ -6,6 +6,6 @@ button:hover {
   cursor: pointer;
 }
 img {
-  width: 50vw;
-  height: auto;
+  width: auto;
+  height: 80vh;
 }

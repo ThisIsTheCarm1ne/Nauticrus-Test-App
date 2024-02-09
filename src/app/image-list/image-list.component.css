@@ -11,6 +11,7 @@ button {
   height: 100%;
   border: 0;
   background: none;
+  cursor: pointer;
 }
 img {
   width: auto;

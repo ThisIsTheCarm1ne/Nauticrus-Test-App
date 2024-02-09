@@ -4,4 +4,27 @@
   flex-direction: column;
   z-index: 3;
   color: whitesmoke;
+  margin-left: 2vw;
+}
+form {
+  display: flex;
+  gap: 0.5vw;
+}
+input {
+  color: white;
+  background: #8C8C8C;
+  border: 2px white solid;
+  border-radius: 5px;
+}
+button {
+  font-size: 2vw;
+  width: 2vw;
+  height: auto;
+  color: white;
+  background: #8C8C8C;
+  border: 2px white solid;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
